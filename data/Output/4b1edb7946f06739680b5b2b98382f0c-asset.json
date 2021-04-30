@@ -1,0 +1,65 @@
+{
+    "asset": {
+        "format": "tfrecord",
+        "id": "4b1edb7946f06739680b5b2b98382f0c",
+        "name": "voc2012_train.tfrecord",
+        "path": "file:D:/YOLO/TF/data/voc2012_train.tfrecord",
+        "size": {
+            "width": 500,
+            "height": 442
+        },
+        "state": 2,
+        "type": 4
+    },
+    "regions": [
+        {
+            "id": "bHCCADg-I",
+            "type": "RECTANGLE",
+            "tags": [
+                "horse"
+            ],
+            "boundingBox": {
+                "left": 52.99999937415123,
+                "top": 87.00000140070915,
+                "width": 417.9999865591526,
+                "height": 332.99999991059303
+            },
+            "points": [
+                {
+                    "x": 52.99999937415123,
+                    "y": 87.00000140070915
+                },
+                {
+                    "x": 470.99998593330383,
+                    "y": 420.0000013113022
+                }
+            ]
+        },
+        {
+            "id": "WmakIet5iK",
+            "type": "RECTANGLE",
+            "tags": [
+                "person",
+                "car",
+                "Persona"
+            ],
+            "boundingBox": {
+                "left": 158.00000727176666,
+                "top": 44.000000670552254,
+                "width": 130.99999725818634,
+                "height": 123.00000254809856
+            },
+            "points": [
+                {
+                    "x": 158.00000727176666,
+                    "y": 44.000000670552254
+                },
+                {
+                    "x": 289.000004529953,
+                    "y": 167.00000321865082
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

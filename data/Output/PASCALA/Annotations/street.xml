@@ -1,0 +1,37 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>street.jpg</filename>
+    <path>asdfg-PascalVOC-export/Annotations/street.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>630</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>Persona</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>715.5681818181818</xmin>
+        <ymin>190.9090909090909</ymin>
+        <xmax>924.2045454545454</xmax>
+        <ymax>531.1363636363636</ymax>
+    </bndbox>
+</object><object>
+    <name>Persona</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>189.20454545454544</xmin>
+        <ymin>169.09090909090907</ymin>
+        <xmax>345.34090909090907</xmax>
+        <ymax>342.9545454545454</ymax>
+    </bndbox>
+</object>
+</annotation>

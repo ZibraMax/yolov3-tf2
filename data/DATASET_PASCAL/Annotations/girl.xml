@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>girl.png</filename>
+    <path>SDRFGHSDFGHAGSEDRFSDFG-PascalVOC-export/Annotations/girl.png</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>812</width>
+        <height>667</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>328.3637777777778</xmin>
+        <ymin>21.655844155844157</ymin>
+        <xmax>644.5024444444444</xmax>
+        <ymax>446.83225108225105</ymax>
+    </bndbox>
+</object>
+</annotation>

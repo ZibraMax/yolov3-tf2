@@ -1,0 +1,129 @@
+{
+    "name": "asdfg",
+    "securityToken": "asdfg Token",
+    "sourceConnection": {
+        "name": "asdf",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGYxYTllZThhYzdhZTM1MDY1NDc0OGQwZGIwNWQyOWQyNTE1MDllYThmZTE5Zjg0Nzc2YmJjMGE5ZDZmNzUwMDYwMzliNWIwZDg3OWYzYTNiMDAwZDQyZTIwZWM2OWU3IiwiaXYiOiI1OGE2NmIyMmQwMTA1ZTk5YWQ5OTAwZjRhZTdkODRmNGMwZDc5MTdiYjhiOGYwNWQifQ=="
+        },
+        "id": "fEqKAXyGI"
+    },
+    "targetConnection": {
+        "name": "OutputDataset",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzA0ZWM4ZWFkMThjZmNhM2JkNmI2YzBhNjNjNzFlNjYwNWZlZDM4NmYwZGQ3YTdkOTU3NDZhNGI5NTA4NjRkYTc4MTVlMGFjYTliZGIyY2RkNGMzOTFkMjdiZDk3ZTAwIiwiaXYiOiI2ODNkODI1YTY5NjViOGY0NjdiMzcyZGViNmQwYTg2NTliOTMyMmE3OTJkYmVjNzgifQ=="
+        },
+        "id": "Kej6rqS-h"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 30
+    },
+    "tags": [
+        {
+            "name": "car",
+            "color": "#5db300"
+        },
+        {
+            "name": "Persona",
+            "color": "#e81123"
+        },
+        {
+            "name": "horse",
+            "color": "#6917aa"
+        },
+        {
+            "name": "person",
+            "color": "#015cda"
+        }
+    ],
+    "id": "DQQzlovNH",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTgyMjdmMWI5OTY4MTkwNmNmN2Q5YTgzYWNmOGMyZTg0ZjliNGNiMjljMzY4NWFkZGM3ZmZhOTdiOGU2ZWU5YTE3ODI0MjJhYmIyZjFkYjFkYTEyMGZjYTc1MWFhY2UyN2IyZjQ2NWRlOGRkZTkyNDlhYzEyNzNmMGFjYzNhZGU4YzcwYzVhMzMwNWU4MGRmMTZlMGMwZTE5ZGFjNGVlMiIsIml2IjoiYTczN2FlZGRhNWI2Yjg4ODNjNjhjMmI4NDRjM2Q4ZDRkMTQ2ZjM3YTY3NzQwMjBkIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "4b1edb7946f06739680b5b2b98382f0c",
+    "assets": {
+        "d979ce00d53a7416622285aa9f96a4ae": {
+            "format": "png",
+            "id": "d979ce00d53a7416622285aa9f96a4ae",
+            "name": "girl.png",
+            "path": "file:D:/YOLO/TF/data/girl.png",
+            "size": {
+                "width": 812,
+                "height": 667
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ca6ba33d417e383d754df0f28b6c9f92": {
+            "format": "jpg",
+            "id": "ca6ba33d417e383d754df0f28b6c9f92",
+            "name": "meme.jpg",
+            "path": "file:D:/YOLO/TF/data/meme.jpg",
+            "size": {
+                "width": 3000,
+                "height": 2000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3818b013ddcd4824c7bdddfbc8c97ab8": {
+            "format": "jpeg",
+            "id": "3818b013ddcd4824c7bdddfbc8c97ab8",
+            "name": "meme2.jpeg",
+            "path": "file:D:/YOLO/TF/data/meme2.jpeg",
+            "size": {
+                "width": 300,
+                "height": 168
+            },
+            "state": 2,
+            "type": 1
+        },
+        "24220a127bbc7a3b6a6bfc9bbec36b8e": {
+            "format": "jpg",
+            "id": "24220a127bbc7a3b6a6bfc9bbec36b8e",
+            "name": "street.jpg",
+            "path": "file:D:/YOLO/TF/data/street.jpg",
+            "size": {
+                "width": 1200,
+                "height": 630
+            },
+            "state": 1,
+            "type": 1
+        },
+        "6dc1147b544a62241ffdeb78581ac593": {
+            "format": "tfrecord",
+            "id": "6dc1147b544a62241ffdeb78581ac593",
+            "name": "dataset.tfrecord",
+            "path": "file:D:/YOLO/TF/data/dataset.tfrecord",
+            "size": {
+                "width": 300,
+                "height": 168
+            },
+            "state": 2,
+            "type": 4
+        },
+        "4b1edb7946f06739680b5b2b98382f0c": {
+            "format": "tfrecord",
+            "id": "4b1edb7946f06739680b5b2b98382f0c",
+            "name": "voc2012_train.tfrecord",
+            "path": "file:D:/YOLO/TF/data/voc2012_train.tfrecord",
+            "size": {
+                "width": 500,
+                "height": 442
+            },
+            "state": 2,
+            "type": 4
+        }
+    }
+}

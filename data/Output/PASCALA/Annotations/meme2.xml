@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>meme2.jpeg</filename>
+    <path>asdfg-PascalVOC-export/Annotations/meme2.jpeg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>168</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>Persona</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>62.81818181818182</xmin>
+        <ymin>28.545454545454547</ymin>
+        <xmax>114.27272727272728</xmax>
+        <ymax>87.0909090909091</ymax>
+    </bndbox>
+</object><object>
+    <name>Persona</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>139.1818181818182</xmin>
+        <ymin>6.909090909090909</ymin>
+        <xmax>193.36363636363637</xmax>
+        <ymax>66.72727272727273</ymax>
+    </bndbox>
+</object><object>
+    <name>Persona</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>216.0909090909091</xmin>
+        <ymin>29.272727272727273</ymin>
+        <xmax>266.8181818181818</xmax>
+        <ymax>81.81818181818181</ymax>
+    </bndbox>
+</object>
+</annotation>

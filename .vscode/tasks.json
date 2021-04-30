@@ -1,0 +1,69 @@
+{
+    // task,json CORRER PROGRAMAS PROS
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Convertir PASCAL a record",
+            "command": "python",
+            "args": [
+                "tools/voc2012.py",
+                "--data_dir",
+                "./data/Output/ee",
+                "--split",
+                "train",
+                "--classes",
+                "./coco.names",
+                "--output_file",
+                "./data/dataset.record"
+            ]
+        },
+        {
+            "label": "Transfer learning de coco",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "train.py",
+                "--dataset",
+                "./data/dataset.record",
+                "--val_dataset",
+                "./data/dataset.record",
+                "--classes",
+                "./coco.names",
+                "--mode",
+                "fit",
+                "--transfer",
+                "fine_tune",
+                "--weights",
+                "./checkpoints/yolov3.tf",
+                "--batch_size",
+                "8",
+                "--epochs",
+                "10"
+            ]
+        },
+        {
+            "label": "Pasar de darknet a tf",
+            "command": "python",
+            "args": [
+                "convert.py",
+                "--weights",
+                "./data/yolov3.weights",
+                "--output",
+                "./checkpoints/yolov3.tf"
+            ]
+        },
+        {
+            "label": "Correr imagen de meme",
+            "command": "python",
+            "args": [
+                "detect.py",
+                "--weights",
+                "./checkpoints/yolov3_train_4.tf",
+                "--image",
+                "./data/girl.png",
+                "--output",
+                "./prueba.png"
+            ]
+        }
+    ]
+}

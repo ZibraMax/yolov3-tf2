@@ -1,0 +1,70 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>street.jpg</filename>
+    <path>SDRFGHSDFGHAGSEDRFSDFG-PascalVOC-export/Annotations/street.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1200</width>
+        <height>630</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>725.7954545454545</xmin>
+        <ymin>202.49999999999997</ymin>
+        <xmax>823.2954545454545</xmax>
+        <ymax>539.3181818181818</ymax>
+    </bndbox>
+</object><object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>819.2045454545454</xmin>
+        <ymin>213.4090909090909</ymin>
+        <xmax>907.840909090909</xmax>
+        <ymax>510.68181818181813</ymax>
+    </bndbox>
+</object><object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>265.5681818181818</xmin>
+        <ymin>194.99999999999997</ymin>
+        <xmax>330.34090909090907</xmax>
+        <ymax>334.09090909090907</ymax>
+    </bndbox>
+</object><object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>199.43181818181816</xmin>
+        <ymin>180.68181818181816</ymin>
+        <xmax>246.4772727272727</xmax>
+        <ymax>336.81818181818176</ymax>
+    </bndbox>
+</object><object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>121.70454545454544</xmin>
+        <ymin>172.5</ymin>
+        <xmax>167.38636363636363</xmax>
+        <ymax>349.77272727272725</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -8,12 +8,13 @@ import tensorflow as tf
 import lxml.etree
 import tqdm
 
-flags.DEFINE_string('data_dir', './data/voc2012_raw/VOCdevkit/VOC2012/',
+flags.DEFINE_string('data_dir', './data/Output/ee',
                     'path to raw PASCAL VOC dataset')
 flags.DEFINE_enum('split', 'train', [
                   'train', 'val'], 'specify train or val spit')
-flags.DEFINE_string('output_file', './data/voc2012_train.tfrecord', 'outpot dataset')
-flags.DEFINE_string('classes', './data/voc2012.names', 'classes file')
+flags.DEFINE_string('output_file', './data/dataset.tfrecord', 'outpot dataset')
+flags.DEFINE_string(
+    'classes', './coco.names', 'classes file')
 
 
 def build_example(annotation, class_map):
@@ -92,9 +93,12 @@ def main(_argv):
     logging.info("Class mapping loaded: %s", class_map)
 
     writer = tf.io.TFRecordWriter(FLAGS.output_file)
-    image_list = open(os.path.join(
-        FLAGS.data_dir, 'ImageSets', 'Main', '%s.txt' % FLAGS.split)).read().splitlines()
-    logging.info("Image list loaded: %d", len(image_list))
+
+    # image_list = open(os.path.join(
+    #     FLAGS.data_dir, 'ImageSets', 'Main', '%s.txt' % FLAGS.split)).read().splitlines()
+    image_list = [i.split('.')[0] for i in os.listdir(
+        os.path.join(FLAGS.data_dir, 'JPEGImages'))]
+    print("Image list loaded: %d", len(image_list))
     for name in tqdm.tqdm(image_list):
         annotation_xml = os.path.join(
             FLAGS.data_dir, 'Annotations', name + '.xml')

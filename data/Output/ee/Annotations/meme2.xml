@@ -1,0 +1,48 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>meme2.jpeg</filename>
+    <path>SDRFGHSDFGHAGSEDRFSDFG-PascalVOC-export/Annotations/meme2.jpeg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>300</width>
+        <height>168</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>35.18181818181818</xmin>
+        <ymin>18.727272727272727</ymin>
+        <xmax>141.1818181818182</xmax>
+        <ymax>168</ymax>
+    </bndbox>
+</object><object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>141.72727272727272</xmin>
+        <ymin>4.7272727272727275</ymin>
+        <xmax>221</xmax>
+        <ymax>168</ymax>
+    </bndbox>
+</object><object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>221.9090909090909</xmin>
+        <ymin>42.36363636363637</ymin>
+        <xmax>269.9090909090909</xmax>
+        <ymax>168</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>meme.jpg</filename>
+    <path>asdfg-PascalVOC-export/Annotations/meme.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>3000</width>
+        <height>2000</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>Persona</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1940.4761904761904</xmin>
+        <ymin>93.07359307359307</ymin>
+        <xmax>2585.4978354978352</xmax>
+        <ymax>850.6493506493507</ymax>
+    </bndbox>
+</object>
+</annotation>

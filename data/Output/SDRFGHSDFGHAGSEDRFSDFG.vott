@@ -1,0 +1,93 @@
+{
+    "name": "SDRFGHSDFGHAGSEDRFSDFG",
+    "securityToken": "SDRFGHSDFGHAGSEDRFSDFG Token",
+    "sourceConnection": {
+        "name": "SDFGSDFG",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYzFjYzZmMmZkNTkwYTRlYmY4MzFhZWQ2MGVkZGY1ZmRjZDJhYzE0ZDQ2ZjQzNTk3M2ZhZWYzYzI4YmQ2ZGZjOTkwNjk1ZTg2NDk0ODU4NzM5MTMyNDY2ZTkyYTI5N2Y4IiwiaXYiOiI1NWZjNzM1Y2EzMGI3ZTEyNDY3NjE2ODlhMTE0ZTMyMzM4OTI0MGU2YzNjMTQyZDIifQ=="
+        },
+        "id": "6DNAe0Z6I"
+    },
+    "targetConnection": {
+        "name": "OutputDataset",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzVlM2ZiNDkyZWU4MDkwZTY2YTYwYzU4NGJiM2E3NzRlN2VjYTdkYWUyYTQzMGIyMjgyZjZjNGViZmM5YTkxMmQ1ZmU0M2M3YzBjZGZhNTgxOTFjN2NmMzliMmQzNzVmIiwiaXYiOiJkNTA2YmY0ZTYxMjk4OTZhYmIwMWQ0YzE0NDljN2ZiZGNkNGQzZTFmYjFkYzI4OTYifQ=="
+        },
+        "id": "Kej6rqS-h"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 30
+    },
+    "tags": [
+        {
+            "name": "person",
+            "color": "#00FFFF"
+        }
+    ],
+    "id": "qoPu03etE",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMzVhZDFkOTMwNzUwMzQxNGVlN2Y2ODg1NmViYjMyZTU5OWU4ZmIzZDdlMmM4N2YxMTg5YjMzZGY0ODJjMjJkYjQ5MjA2Y2JmYzQ4ODJjZmI1Y2Y3MWIwMmU4ZmUxMTIyNjQ1NmY1Y2U1ZWZkZGM0NzE2MjEyYmUxNTcxZWI0MmNjZTlmZjM1MTdiOGQyNTc2YzU2MDNiNjk2YjVmYWFlNiIsIml2IjoiYTQzMmViZGJjZWMyZjIzZTQ5NWU5YTkzNWFkMTc1NDljZWYzODgyNGNjZTBhMGQzIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "2cbde5c5bdbefa5dcc4a69ee1ca16980",
+    "assets": {
+        "89f336f44d0f3d1eead2f9e3b04459fa": {
+            "format": "png",
+            "id": "89f336f44d0f3d1eead2f9e3b04459fa",
+            "name": "girl.png",
+            "path": "file:D:/YOLO/TF/data/SOLO/girl.png",
+            "size": {
+                "width": 812,
+                "height": 667
+            },
+            "state": 2,
+            "type": 1
+        },
+        "54f7828fd64975280e205a49698f28d4": {
+            "format": "jpg",
+            "id": "54f7828fd64975280e205a49698f28d4",
+            "name": "meme.jpg",
+            "path": "file:D:/YOLO/TF/data/SOLO/meme.jpg",
+            "size": {
+                "width": 3000,
+                "height": 2000
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7988ca8c921e1106f3a3509616f1f826": {
+            "format": "jpeg",
+            "id": "7988ca8c921e1106f3a3509616f1f826",
+            "name": "meme2.jpeg",
+            "path": "file:D:/YOLO/TF/data/SOLO/meme2.jpeg",
+            "size": {
+                "width": 300,
+                "height": 168
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2cbde5c5bdbefa5dcc4a69ee1ca16980": {
+            "format": "jpg",
+            "id": "2cbde5c5bdbefa5dcc4a69ee1ca16980",
+            "name": "street.jpg",
+            "path": "file:D:/YOLO/TF/data/SOLO/street.jpg",
+            "size": {
+                "width": 1200,
+                "height": 630
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
