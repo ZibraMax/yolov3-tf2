@@ -98,13 +98,6 @@ def main(_argv):
         np.savetxt('data/Output_frames/frame_'+format(i)+'.csv',boxesth.astype(int),delimiter=',',fmt='%s')
         
         cv2.imwrite('data/Output_frames/frame_'+format(i)+'.png',img)
-        
-        """
-        cv2.imwrite('Data analysis/data_outputs/test2/frame_'+format(frame_i)+'.png',frame)
-        np.savetxt('Data analysis/data_outputs/test2/csv/frame_'+format(frame_i)+'.csv',boxesth,delimiter=',',fmt='%s')
-        cantidad_veh.append(len(boxesth))
-        counter = counter + 1
-"""
 
         img = cv2.putText(img, "Time: {:.2f}ms".format(sum(times)/len(times)*1000), (0, 30),
                           cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 0, 255), 2)
