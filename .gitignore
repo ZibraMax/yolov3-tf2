@@ -1,7 +1,6 @@
 *.h5
 *.weights
 *.tar
-*.tfrecord
 /checkpoints/*
 /serving/*
 /logs/
