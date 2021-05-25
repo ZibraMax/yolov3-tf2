@@ -8,7 +8,7 @@ import tensorflow as tf
 import lxml.etree
 import tqdm
 
-flags.DEFINE_string('data_dir', './data/Output/ee',
+flags.DEFINE_string('data_dir', './data/Output/training_test',
                     'path to raw PASCAL VOC dataset')
 flags.DEFINE_enum('split', 'train', [
                   'train', 'val'], 'specify train or val spit')

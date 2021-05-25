@@ -1,0 +1,14 @@
+frame_9.png 1
+frame_87.png 1
+frame_86.png 1
+frame_85.png 1
+frame_84.png 1
+frame_83.png 1
+frame_82.png 1
+frame_81.png 1
+frame_80.png 1
+frame_8.png 1
+frame_79.png 1
+frame_78.png 1
+frame_77.png 1
+frame_76.png 1

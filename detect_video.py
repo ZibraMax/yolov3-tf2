@@ -1,4 +1,5 @@
 import time
+import numpy as np
 from absl import app, flags, logging
 from absl.flags import FLAGS
 import cv2
@@ -55,6 +56,11 @@ def main(_argv):
         codec = cv2.VideoWriter_fourcc(*FLAGS.output_format)
         out = cv2.VideoWriter(FLAGS.output, codec, fps, (width, height))
 
+    iteration = ''
+    dir_csv = './data/CSVs'
+    iterations = []
+    counter = 0
+
     while True:
         _, img = vid.read()
 
@@ -74,6 +80,14 @@ def main(_argv):
         times = times[-20:]
 
         img = draw_outputs(img, (boxes, scores, classes, nums), class_names)
+        
+        """
+	    cv2.imwrite('Data analysis/data_outputs/test2/frame_'+format(frame_i)+'.png',frame)
+	    np.savetxt('Data analysis/data_outputs/test2/csv/frame_'+format(frame_i)+'.csv',boxesth,delimiter=',',fmt='%s')
+	    cantidad_veh.append(len(boxesth))
+        counter = counter + 1
+"""
+
         img = cv2.putText(img, "Time: {:.2f}ms".format(sum(times)/len(times)*1000), (0, 30),
                           cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 0, 255), 2)
         if FLAGS.output:

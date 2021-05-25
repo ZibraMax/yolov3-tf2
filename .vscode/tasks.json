@@ -53,16 +53,29 @@
             ]
         },
         {
-            "label": "Correr imagen de meme",
+            "label": "Correr analisis de imagen",
             "command": "python",
             "args": [
                 "detect.py",
                 "--weights",
-                "./checkpoints/yolov3_train_4.tf",
+                "./checkpoints/yolov3_train_5.tf",
                 "--image",
-                "./data/girl.png",
+                "./data/frames_cars/frame_1.png",
                 "--output",
-                "./prueba.png"
+                "./prueba_frame2.png"
+            ]
+        },
+        {
+            "label": "Correr analisis de video",
+            "command": "python",
+            "args": [
+                "detect_video.py",
+                "--weights",
+                "./checkpoints/yolov3_train_35.tf",
+                "--video",
+                "./data/videos_cars/test.mp4",
+                "--output",
+                "./test2_video.avi"
             ]
         }
     ]

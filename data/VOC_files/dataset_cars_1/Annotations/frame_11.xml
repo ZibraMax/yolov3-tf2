@@ -1,0 +1,15 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>frame_11.png</filename>
+    <path>cars-PascalVOC-export/Annotations/frame_11.png</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>706</width>
+        <height>622</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    
+</annotation>

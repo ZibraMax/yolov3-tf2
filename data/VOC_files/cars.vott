@@ -1,0 +1,1089 @@
+{
+    "name": "cars",
+    "securityToken": "cars Token",
+    "sourceConnection": {
+        "name": "data_train_cars",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTQ4N2U2MmY1N2Y0YmM4ZDU2MzQzODZiZDYyYzkxZTA4MGIwYjU5Mzk2NGNhMzRiYzdmZjZhN2FjOWYwOTBmNTE1NzU2Zjk3ODMyNWQwYWE3YzE4Y2FjNjZkZjcyMjczMTExMjRiYjA2MTUyODY5YTY0YTliMmE0ODAyODUxODk2ZDI2NDE2YTczY2ZmODFkMGE4YmM3MzY2ZjAxMDVmNjQ5MjNkMWQzYzg1MjZjNzM1ZjBiYmY5ZDdmZWI2YTQ4ZjAyMjhiNDA4NjZjZWYxZWY2MjE4ZDg2OTczOTljNDBjOWUxMTExNTBiODJmMzljMjkxOTVmNDUwOGIwOGI1YjkwMjdhYTE4ODFiNzNlMzQ2YWY3OTFkYWIwNzM0YTRjZGVhZTQwNWE5OGExZTBkNTQyZjFkNDhjN2I0NDIxMGUiLCJpdiI6IjQ5MTJkMWQwOTczMDkyMjE0NmVjY2VkN2FhY2U0OThjMzhjYWYzMzY2NmZjN2U4MCJ9"
+        },
+        "id": "BO1m4QjBp"
+    },
+    "targetConnection": {
+        "name": "output_tags",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZmQzM2MwMjY2ZmRjMWJiMDA2ZTc5ZWRhYWE5YzFhYzRmZGIwYzcwYWIyOWEyZTJmZGI3MTc0YzhlZmY2YTMxMWI2NjA2YTE1YzQ4MDIwOGYzY2Q5YTc5NTIwNjI1Y2IzYWMyZTMzZTMyNWE0YzBmMDA2OGExMzI2NGIxMzYxNTE5ZDQ0MDgzYjI0NGFkMWZjMTgxM2IzNWEzM2RlZTRhM2YwMDJhMTk4YTFmYTM2MzVkZTBkMTJjNWFmZWNkZTlmNDgzMjZiNTNiMGY4MjFlN2NiOTE5Mjg2MTY5ZmE3YjEyMWIxYTMzZjhlMWM2M2FlNmQ1YTIxMmI1MmYxZTk4M2VkNjQwODllYWU3ZGJkNTg0MWVlYjg5ZmYyOTIzODJkNWRmYjA5NmU1MDA3YjE0ZDIwOTA1M2VhYjQ5N2UyYzQiLCJpdiI6IjhmNGNjOGFkY2M3YTM0NGU2MWY5ZDkwZDQ3NmJlNWMxNWFjNGYzZGU2M2JiMmU2MSJ9"
+        },
+        "id": "AqIcftEmY"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 30
+    },
+    "tags": [
+        {
+            "name": "car",
+            "color": "#5db300"
+        }
+    ],
+    "id": "QwBSHPGEl",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjgyNDA0OGI2ZDEwOTZmMzhlMGIzYmM0NDg2N2NiOTgzZWYzOGI1YWEwZTBhMmFmM2JiZGY1NmQ0NWYwZDA5OTBmNTY1YjJkOGM1M2JiNjc0ODFhNmU4MWVhMjE0MDMyYjM1YzdlNjU4YjY3YzYzZDBjZTI5YjgyOWU3YTRmYzE0MjJmNTgxZDk4OGNhOGUxMjYzYjY2NTA1YTgxZDJiMyIsIml2IjoiM2I3YmE5YTk1OGEyNTdkNWIyMWQ5NTFiY2FjNzIyNDgzOTdjNTFmYmFmOTQ4YTM2In0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "315c60589e2ea4d4aa4a380517b23e9e",
+    "assets": {
+        "29f69b77b9c35daa428e92e7e345edcb": {
+            "format": "png",
+            "id": "29f69b77b9c35daa428e92e7e345edcb",
+            "name": "frame_1.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_1.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc038c08922b3ef7a28b6611a222c901": {
+            "format": "png",
+            "id": "bc038c08922b3ef7a28b6611a222c901",
+            "name": "frame_10.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_10.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c03f3813205f3d3ab9e5dd36e965600c": {
+            "format": "png",
+            "id": "c03f3813205f3d3ab9e5dd36e965600c",
+            "name": "frame_11.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_11.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb5727b02d6f609be2f9d16eb6b84b29": {
+            "format": "png",
+            "id": "fb5727b02d6f609be2f9d16eb6b84b29",
+            "name": "frame_12.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_12.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9ff57a76496298e43bc19abfb60babe3": {
+            "format": "png",
+            "id": "9ff57a76496298e43bc19abfb60babe3",
+            "name": "frame_13.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_13.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "df1955e8826a8f5ae39bbbd61063c5e7": {
+            "format": "png",
+            "id": "df1955e8826a8f5ae39bbbd61063c5e7",
+            "name": "frame_14.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_14.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "274dd72c3ff94699dd921327787fecd3": {
+            "format": "png",
+            "id": "274dd72c3ff94699dd921327787fecd3",
+            "name": "frame_15.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_15.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d0174a6a61be8d240ffc111467851d90": {
+            "format": "png",
+            "id": "d0174a6a61be8d240ffc111467851d90",
+            "name": "frame_16.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_16.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3bc0a9722c57bbe398aaa81ed8978750": {
+            "format": "png",
+            "id": "3bc0a9722c57bbe398aaa81ed8978750",
+            "name": "frame_17.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_17.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27e7e0608fe346fed83162ca6991437d": {
+            "format": "png",
+            "id": "27e7e0608fe346fed83162ca6991437d",
+            "name": "frame_18.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_18.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d4ba6cb89497f86563f2d3f13a9b19b1": {
+            "format": "png",
+            "id": "d4ba6cb89497f86563f2d3f13a9b19b1",
+            "name": "frame_19.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_19.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "15c6f1d45cf93a1df716925694d05ae5": {
+            "format": "png",
+            "id": "15c6f1d45cf93a1df716925694d05ae5",
+            "name": "frame_2.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_2.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f89674a02d6d2f174a2a01eca1e8ccf2": {
+            "format": "png",
+            "id": "f89674a02d6d2f174a2a01eca1e8ccf2",
+            "name": "frame_20.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_20.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50f3a3fc0e7842832f76a93e617e9d0d": {
+            "format": "png",
+            "id": "50f3a3fc0e7842832f76a93e617e9d0d",
+            "name": "frame_21.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_21.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78df73c36b4239d31a9806893f109e3d": {
+            "format": "png",
+            "id": "78df73c36b4239d31a9806893f109e3d",
+            "name": "frame_22.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_22.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9baa2e55dd0cecc539f890816cb5cc2e": {
+            "format": "png",
+            "id": "9baa2e55dd0cecc539f890816cb5cc2e",
+            "name": "frame_23.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_23.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "efc72d1336aef0f859dc7207c1fb3c09": {
+            "format": "png",
+            "id": "efc72d1336aef0f859dc7207c1fb3c09",
+            "name": "frame_24.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_24.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04097a669d21df5a605a7fc20abf5494": {
+            "format": "png",
+            "id": "04097a669d21df5a605a7fc20abf5494",
+            "name": "frame_25.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_25.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f33242b8c7338467fa3f14f4e1196da": {
+            "format": "png",
+            "id": "8f33242b8c7338467fa3f14f4e1196da",
+            "name": "frame_26.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_26.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "81025f85d8e95a29d1a619211a579532": {
+            "format": "png",
+            "id": "81025f85d8e95a29d1a619211a579532",
+            "name": "frame_27.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_27.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a3b20119a66671176866aaef653ef50": {
+            "format": "png",
+            "id": "8a3b20119a66671176866aaef653ef50",
+            "name": "frame_28.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_28.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "33a0c4eb9ca2d1cf4cb3a04edb10bdc1": {
+            "format": "png",
+            "id": "33a0c4eb9ca2d1cf4cb3a04edb10bdc1",
+            "name": "frame_29.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_29.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bdb2ab746fbf7e75287762db53239486": {
+            "format": "png",
+            "id": "bdb2ab746fbf7e75287762db53239486",
+            "name": "frame_3.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_3.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e4feb435e47886a8a0fe7f0c74be4a26": {
+            "format": "png",
+            "id": "e4feb435e47886a8a0fe7f0c74be4a26",
+            "name": "frame_30.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_30.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1851ed3eb4a460753e266ad1054dc460": {
+            "format": "png",
+            "id": "1851ed3eb4a460753e266ad1054dc460",
+            "name": "frame_31.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_31.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c60c4bca36b92ac643e16f098840aa90": {
+            "format": "png",
+            "id": "c60c4bca36b92ac643e16f098840aa90",
+            "name": "frame_32.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_32.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "faf0254122f69d86f25601001a82d899": {
+            "format": "png",
+            "id": "faf0254122f69d86f25601001a82d899",
+            "name": "frame_33.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_33.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9324b552bdd37e7ab1fe8c7315739ecb": {
+            "format": "png",
+            "id": "9324b552bdd37e7ab1fe8c7315739ecb",
+            "name": "frame_34.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_34.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "398eae6c9a6377385199f62c463a7602": {
+            "format": "png",
+            "id": "398eae6c9a6377385199f62c463a7602",
+            "name": "frame_35.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_35.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ffa0f7f40b5d6acf0d2cfea998141e7": {
+            "format": "png",
+            "id": "1ffa0f7f40b5d6acf0d2cfea998141e7",
+            "name": "frame_36.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_36.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d74727ad4b52b94c9e27ebe7c1e9ae94": {
+            "format": "png",
+            "id": "d74727ad4b52b94c9e27ebe7c1e9ae94",
+            "name": "frame_37.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_37.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7fde184e9b2a0f5f6d4323381b7591a": {
+            "format": "png",
+            "id": "c7fde184e9b2a0f5f6d4323381b7591a",
+            "name": "frame_38.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_38.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ebc61dda85adb33f93bf651adaa9d0b3": {
+            "format": "png",
+            "id": "ebc61dda85adb33f93bf651adaa9d0b3",
+            "name": "frame_39.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_39.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "28ffe870445ee66dc43a3f127eadef60": {
+            "format": "png",
+            "id": "28ffe870445ee66dc43a3f127eadef60",
+            "name": "frame_4.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_4.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f02e0f7bd48ebcfd1898510254ac9d3d": {
+            "format": "png",
+            "id": "f02e0f7bd48ebcfd1898510254ac9d3d",
+            "name": "frame_40.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_40.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61a3714d8b2444123cfadd8cfaac1f15": {
+            "format": "png",
+            "id": "61a3714d8b2444123cfadd8cfaac1f15",
+            "name": "frame_41.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_41.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "debf1c98d5f5c9fd9dd4dc59bb681946": {
+            "format": "png",
+            "id": "debf1c98d5f5c9fd9dd4dc59bb681946",
+            "name": "frame_42.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_42.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "647c0e1df9265566910bf642c50f540a": {
+            "format": "png",
+            "id": "647c0e1df9265566910bf642c50f540a",
+            "name": "frame_43.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_43.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4f92dd1a9275025c73fb40e7bc35e00": {
+            "format": "png",
+            "id": "b4f92dd1a9275025c73fb40e7bc35e00",
+            "name": "frame_44.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_44.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba0480684ff6148797a86e9a87ad0355": {
+            "format": "png",
+            "id": "ba0480684ff6148797a86e9a87ad0355",
+            "name": "frame_45.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_45.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67633f2151ed13ae57679e7d59e8ef79": {
+            "format": "png",
+            "id": "67633f2151ed13ae57679e7d59e8ef79",
+            "name": "frame_46.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_46.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68c365a36a86735cf466c2d98ba73a2d": {
+            "format": "png",
+            "id": "68c365a36a86735cf466c2d98ba73a2d",
+            "name": "frame_47.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_47.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "052c14ee2ff076b7081687f92ad972d2": {
+            "format": "png",
+            "id": "052c14ee2ff076b7081687f92ad972d2",
+            "name": "frame_48.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_48.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f55740284a74d6566fd079c5aeff3d58": {
+            "format": "png",
+            "id": "f55740284a74d6566fd079c5aeff3d58",
+            "name": "frame_49.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_49.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c5c92bba377032e8c8d580c7485fc628": {
+            "format": "png",
+            "id": "c5c92bba377032e8c8d580c7485fc628",
+            "name": "frame_5.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_5.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e87cee300df959d506eab15d9b5ed023": {
+            "format": "png",
+            "id": "e87cee300df959d506eab15d9b5ed023",
+            "name": "frame_50.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_50.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c790d551c3952dbba4de2a225dd00683": {
+            "format": "png",
+            "id": "c790d551c3952dbba4de2a225dd00683",
+            "name": "frame_51.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_51.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5cf390e1462e7142d61c545f63db7529": {
+            "format": "png",
+            "id": "5cf390e1462e7142d61c545f63db7529",
+            "name": "frame_52.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_52.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3a708b3743c154924c4adf8d11a144c": {
+            "format": "png",
+            "id": "a3a708b3743c154924c4adf8d11a144c",
+            "name": "frame_53.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_53.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7376cd9500c8efe648a31cec676a3b77": {
+            "format": "png",
+            "id": "7376cd9500c8efe648a31cec676a3b77",
+            "name": "frame_54.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_54.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3dac79b9847310eebad094ec72e5ba81": {
+            "format": "png",
+            "id": "3dac79b9847310eebad094ec72e5ba81",
+            "name": "frame_55.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_55.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "153f3c4c59bb7d11c478062aa35178c4": {
+            "format": "png",
+            "id": "153f3c4c59bb7d11c478062aa35178c4",
+            "name": "frame_56.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_56.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eae276a37906cbd8e5cb345358977b94": {
+            "format": "png",
+            "id": "eae276a37906cbd8e5cb345358977b94",
+            "name": "frame_57.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_57.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "785cdc87160a3fa7341410536fa0b2a2": {
+            "format": "png",
+            "id": "785cdc87160a3fa7341410536fa0b2a2",
+            "name": "frame_58.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_58.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a069ec068c1a232b1bbd78a09eb3b1b5": {
+            "format": "png",
+            "id": "a069ec068c1a232b1bbd78a09eb3b1b5",
+            "name": "frame_59.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_59.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a8c18fa54327c3c89e196fb9cacfd6d3": {
+            "format": "png",
+            "id": "a8c18fa54327c3c89e196fb9cacfd6d3",
+            "name": "frame_6.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_6.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80a8b08d6785f94735636054654ef465": {
+            "format": "png",
+            "id": "80a8b08d6785f94735636054654ef465",
+            "name": "frame_60.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_60.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b756b8779a25b12cb4621ff68ed85f19": {
+            "format": "png",
+            "id": "b756b8779a25b12cb4621ff68ed85f19",
+            "name": "frame_61.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_61.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8713d39333a9fe1b5e8b32633ad12bef": {
+            "format": "png",
+            "id": "8713d39333a9fe1b5e8b32633ad12bef",
+            "name": "frame_62.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_62.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76caae5c6e2cf51be3b43b3cdad1ff52": {
+            "format": "png",
+            "id": "76caae5c6e2cf51be3b43b3cdad1ff52",
+            "name": "frame_63.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_63.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9f2798cede58ae582bb2ef41b9d7f7a": {
+            "format": "png",
+            "id": "b9f2798cede58ae582bb2ef41b9d7f7a",
+            "name": "frame_64.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_64.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "61c2a63a7a623838a6c1ab045eb1ef4a": {
+            "format": "png",
+            "id": "61c2a63a7a623838a6c1ab045eb1ef4a",
+            "name": "frame_65.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_65.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "081d2c0bc028cf7ceddb7ad0188d29a8": {
+            "format": "png",
+            "id": "081d2c0bc028cf7ceddb7ad0188d29a8",
+            "name": "frame_66.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_66.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cb8e5af216f678cb5f0fe6867c55cac0": {
+            "format": "png",
+            "id": "cb8e5af216f678cb5f0fe6867c55cac0",
+            "name": "frame_67.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_67.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e1fc4b3a1088917a9cfc749b61449ae1": {
+            "format": "png",
+            "id": "e1fc4b3a1088917a9cfc749b61449ae1",
+            "name": "frame_68.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_68.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a3e03730a164e5f24bf24e98ee3af113": {
+            "format": "png",
+            "id": "a3e03730a164e5f24bf24e98ee3af113",
+            "name": "frame_69.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_69.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "079a8a257528113868aa452fa7dd2e1c": {
+            "format": "png",
+            "id": "079a8a257528113868aa452fa7dd2e1c",
+            "name": "frame_7.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_7.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9456feec11432eca25b49f5214faa038": {
+            "format": "png",
+            "id": "9456feec11432eca25b49f5214faa038",
+            "name": "frame_70.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_70.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "689f57a15047f3b2ac0efd2ba07edbbb": {
+            "format": "png",
+            "id": "689f57a15047f3b2ac0efd2ba07edbbb",
+            "name": "frame_71.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_71.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "400c02d11bdd6980bbb9c2256fab7c22": {
+            "format": "png",
+            "id": "400c02d11bdd6980bbb9c2256fab7c22",
+            "name": "frame_72.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_72.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5c866184857b251c2951afaebe4afd38": {
+            "format": "png",
+            "id": "5c866184857b251c2951afaebe4afd38",
+            "name": "frame_73.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_73.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1edb0369bffb93ed9c4e762ad5f73010": {
+            "format": "png",
+            "id": "1edb0369bffb93ed9c4e762ad5f73010",
+            "name": "frame_74.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_74.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "315c60589e2ea4d4aa4a380517b23e9e": {
+            "format": "png",
+            "id": "315c60589e2ea4d4aa4a380517b23e9e",
+            "name": "frame_75.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_75.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "973d6579451608eee26c1727cb19735f": {
+            "format": "png",
+            "id": "973d6579451608eee26c1727cb19735f",
+            "name": "frame_76.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_76.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa689110e2c9e17a0df1823311d1e341": {
+            "format": "png",
+            "id": "fa689110e2c9e17a0df1823311d1e341",
+            "name": "frame_77.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_77.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee5796baabbcf4b7e7d7060edd090a41": {
+            "format": "png",
+            "id": "ee5796baabbcf4b7e7d7060edd090a41",
+            "name": "frame_78.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_78.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7c540694e0140e8071b8624135b09c13": {
+            "format": "png",
+            "id": "7c540694e0140e8071b8624135b09c13",
+            "name": "frame_79.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_79.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9781af94443277d7ca0c983b5e883361": {
+            "format": "png",
+            "id": "9781af94443277d7ca0c983b5e883361",
+            "name": "frame_8.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_8.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a0245f7131a8a5b4f8dcd125092ad1e1": {
+            "format": "png",
+            "id": "a0245f7131a8a5b4f8dcd125092ad1e1",
+            "name": "frame_80.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_80.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b5467e735b241b1a17447ca6f5088be": {
+            "format": "png",
+            "id": "2b5467e735b241b1a17447ca6f5088be",
+            "name": "frame_81.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_81.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f62c35706dba33736d88c13ebfd4bff4": {
+            "format": "png",
+            "id": "f62c35706dba33736d88c13ebfd4bff4",
+            "name": "frame_82.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_82.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "76ad5cd741363e202abeee288f833bb2": {
+            "format": "png",
+            "id": "76ad5cd741363e202abeee288f833bb2",
+            "name": "frame_83.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_83.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67dc10bd6c4aab739e0f6d65ccdd9678": {
+            "format": "png",
+            "id": "67dc10bd6c4aab739e0f6d65ccdd9678",
+            "name": "frame_84.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_84.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "868480697277a282401f5035d2927a72": {
+            "format": "png",
+            "id": "868480697277a282401f5035d2927a72",
+            "name": "frame_85.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_85.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32ffbfb9a2a506582b42642d7fc1393d": {
+            "format": "png",
+            "id": "32ffbfb9a2a506582b42642d7fc1393d",
+            "name": "frame_86.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_86.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9dc7a5b94e4d62fef079b08d44886469": {
+            "format": "png",
+            "id": "9dc7a5b94e4d62fef079b08d44886469",
+            "name": "frame_87.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_87.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb30ce2088878a0bfe330955a09add8f": {
+            "format": "png",
+            "id": "fb30ce2088878a0bfe330955a09add8f",
+            "name": "frame_9.png",
+            "path": "file:D:/Auxiliar%20innovaci%C3%B3n/Documents/UNIVERSIDAD%20ALEJO/2021-1/PASANT%C3%8DA%20DE%20INVESTIGACI%C3%93N/YOLO%20VERSION%201/TF/yolov3-tf2/data/frames_cars/frame_9.png",
+            "size": {
+                "width": 706,
+                "height": 622
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

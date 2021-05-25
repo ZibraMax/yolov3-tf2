@@ -1,0 +1,81 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>frame_55.png</filename>
+    <path>cars-PascalVOC-export/Annotations/frame_55.png</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>706</width>
+        <height>622</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>274.5298498570067</xmin>
+        <ymin>218.7770562770563</ymin>
+        <xmax>356.63852478551</xmax>
+        <ymax>342.63852813852816</ymax>
+    </bndbox>
+</object><object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>357.3115467111535</xmin>
+        <ymin>222.14285714285714</ymin>
+        <xmax>441.43928741658726</xmax>
+        <ymax>337.25324675324674</ymax>
+    </bndbox>
+</object><object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>461.6299451858913</xmin>
+        <ymin>212.04545454545456</ymin>
+        <xmax>543.0655981887512</xmax>
+        <ymax>313.6926406926407</ymax>
+    </bndbox>
+</object><object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>504.7033484270734</xmin>
+        <ymin>444.95887445887445</ymin>
+        <xmax>603.6375714966636</xmax>
+        <ymax>570.8398268398269</ymax>
+    </bndbox>
+</object><object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>376.15616062917064</xmin>
+        <ymin>49.14069264069264</ymin>
+        <xmax>446.15044089609154</xmax>
+        <ymax>145.4025974025974</ymax>
+    </bndbox>
+</object><object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>293.37446377502386</xmin>
+        <ymin>47.794372294372295</ymin>
+        <xmax>353.2734151572927</xmax>
+        <ymax>136.65151515151516</ymax>
+    </bndbox>
+</object>
+</annotation>
