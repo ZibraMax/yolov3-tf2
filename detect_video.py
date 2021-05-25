@@ -10,17 +10,24 @@ from yolov3_tf2.models import (
 from yolov3_tf2.dataset import transform_images
 from yolov3_tf2.utils import draw_outputs
 
+# "--weights",
+# "./checkpoints/yolov3_train_40.tf",
+# "--video",
+# "./data/videos_cars/test_chiqui.mp4",
+# "--output",
+# "./test_new_video.avi"
 
 flags.DEFINE_string('classes', './data/coco.names', 'path to classes file')
-flags.DEFINE_string('weights', './checkpoints/yolov3.tf',
+flags.DEFINE_string('weights', './checkpoints/yolov3_train_40.tf',
                     'path to weights file')
 flags.DEFINE_boolean('tiny', False, 'yolov3 or yolov3-tiny')
 flags.DEFINE_integer('size', 416, 'resize images to')
-flags.DEFINE_string('video', './data/video.mp4',
+flags.DEFINE_string('video', './data/videos_cars/test.mp4',
                     'path to video file or number for webcam)')
-flags.DEFINE_string('output', None, 'path to output video')
+flags.DEFINE_string('output', './test_new_video.avi', 'path to output video')
 flags.DEFINE_string('output_format', 'XVID', 'codec used in VideoWriter when saving video to file')
 flags.DEFINE_integer('num_classes', 80, 'number of classes in the model')
+flags.DEFINE_integer('th', 60, 'Threshold in %, example 60')
 
 
 def main(_argv):
@@ -60,14 +67,14 @@ def main(_argv):
     dir_csv = './data/CSVs'
     iterations = []
     counter = 0
-
+    i = -1
     while True:
+        i+=1
         _, img = vid.read()
 
         if img is None:
-            logging.warning("Empty Frame")
-            time.sleep(0.1)
-            continue
+            logging.warning("Finished!")
+            break
 
         img_in = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         img_in = tf.expand_dims(img_in, 0)
@@ -79,12 +86,23 @@ def main(_argv):
         times.append(t2-t1)
         times = times[-20:]
 
+
+        th = FLAGS.th/100
         img = draw_outputs(img, (boxes, scores, classes, nums), class_names)
+        boxesth = boxes[0][scores.flatten()>=th]
+        wh = np.flip(img.shape[0:2])
+        boxesth[:,0]*=wh[0]
+        boxesth[:,1]*=wh[1]
+        boxesth[:,2]*=wh[0]
+        boxesth[:,3]*=wh[1]
+        np.savetxt('data/Output_frames/frame_'+format(i)+'.csv',boxesth.astype(int),delimiter=',',fmt='%s')
+        
+        cv2.imwrite('data/Output_frames/frame_'+format(i)+'.png',img)
         
         """
-	    cv2.imwrite('Data analysis/data_outputs/test2/frame_'+format(frame_i)+'.png',frame)
-	    np.savetxt('Data analysis/data_outputs/test2/csv/frame_'+format(frame_i)+'.csv',boxesth,delimiter=',',fmt='%s')
-	    cantidad_veh.append(len(boxesth))
+        cv2.imwrite('Data analysis/data_outputs/test2/frame_'+format(frame_i)+'.png',frame)
+        np.savetxt('Data analysis/data_outputs/test2/csv/frame_'+format(frame_i)+'.csv',boxesth,delimiter=',',fmt='%s')
+        cantidad_veh.append(len(boxesth))
         counter = counter + 1
 """
 

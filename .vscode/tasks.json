@@ -71,11 +71,11 @@
             "args": [
                 "detect_video.py",
                 "--weights",
-                "./checkpoints/yolov3_train_35.tf",
+                "./checkpoints/yolov3_train_40.tf",
                 "--video",
-                "./data/videos_cars/test.mp4",
+                "./data/videos_cars/test_chiqui.mp4",
                 "--output",
-                "./test2_video.avi"
+                "./test_new_video.avi"
             ]
         }
     ]
