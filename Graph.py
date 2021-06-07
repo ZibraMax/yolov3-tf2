@@ -15,14 +15,14 @@ for i in range(1,len(frames)):
 	frame1 = np.loadtxt(PATH_FIN,delimiter=',',dtype='str')
 	if len(frame1.shape)==1:
 		frame1 = frame1.reshape([1,len(frame1)])
-	frame1 = frame1[:,:].astype(float).tolist()
+	frame1 = frame1[:,:-1].astype(float).tolist()
 	frame2 = np.loadtxt(PATH_ORIG,delimiter=',',dtype='str')
 	if len(frame2.shape)==1:
 		frame2 = frame2.reshape([1,len(frame2)])
-	frame2 = frame2[:,:].astype(float).tolist()
+	frame2 = frame2[:,:-1].astype(float).tolist()
 
 	for obj in frame1:
-		if obj[9]=='FOUND':
+		if obj[10]=='FOUND':
 			for objfin in frame2:
 				pass #encontrar objeto final y llamarlo obj_fin
 			cx_orig = 0
