@@ -73,9 +73,9 @@
                 "--weights",
                 "./checkpoints/yolov3_train_40.tf",
                 "--video",
-                "./data/videos_cars/test_chiqui.mp4",
+                "./data/videos_cars/test.mp4",
                 "--output",
-                "./test_new_video.avi"
+                "./test_final.avi"
             ]
         }
     ]

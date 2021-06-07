@@ -7,8 +7,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-INPUT_FRAMES_DIRECTORY = 'data_outputs/csv/'
-OUTPUT_FRAMES_DIRECTORY = 'OBJS'
+INPUT_FRAMES_DIRECTORY = 'data/Output_frames/'
+OUTPUT_FRAMES_DIRECTORY = 'data/OBJS'
 try:
 	os.makedirs(OUTPUT_FRAMES_DIRECTORY)
 except:
@@ -27,43 +27,43 @@ def processFrame(f1,f2,d1=3.6,tol=0.032):
 		tol (float, optional): Maximum prediction tolerancy [frame]. Defaults to 0.032.
 	"""
 
-	PATH_F1 = os.path.join(INPUT_FRAMES_DIRECTORY, f'frame_{f1}.csv')
-	PATH_F2 = os.path.join(INPUT_FRAMES_DIRECTORY, f'frame_{f2}.csv')
+	PATH_F1 = os.path.join(INPUT_FRAMES_DIRECTORY, f'frame_{f1-1}.csv')
+	PATH_F2 = os.path.join(INPUT_FRAMES_DIRECTORY, f'frame_{f2-1}.csv')
 
 	frame1 = np.loadtxt(PATH_F1,delimiter=',',dtype='str')
 	if len(frame1.shape)==1:
-		frame1 = frame1.reshape([1,6])
-	frame1 = frame1[:,:-1].astype(float).tolist()
+		frame1 = frame1.reshape([1,4])
+	frame1 = frame1[:,:].astype(float).tolist()
 	frame2 = np.loadtxt(PATH_F2,delimiter=',',dtype='str')
 	if len(frame2.shape)==1:
-		frame2 = frame2.reshape([1,6])
-	frame2 = frame2[:,:-1].astype(float).tolist()
+		frame2 = frame2.reshape([1,4])
+	frame2 = frame2[:,:].astype(float).tolist()
 
 	for frame in [frame1,frame2]:
 		for obj in frame:
-			inputX = obj[0]
-			inputY = obj[1]
-			inputW = obj[2]
-			inputH = obj[3]
-			centerX = inputX + (inputW / 2)
-			centerY = inputY + (inputH / 2)
-			x = int(centerX - (inputW / 2))
-			y = int(centerY + (inputH / 2))
+			inputX1 = obj[0]
+			inputY1 = obj[1]
+			inputX2 = obj[2]
+			inputY2 = obj[3]
+			centerX = ((inputX2 - inputX1) / 2) + inputX1
+			centerY = ((inputY2 - inputY1) / 2) + inputY1
+			#x = int(centerX - (inputW / 2))
+			#y = int(centerY + (inputH / 2))
 
-			azFrame = abs(np.arctan((centerY - y)/(centerX - x)))+ np.pi/2
+			azFrame = abs(np.arctan((centerY - inputY1)/(centerX - inputX1)))+ np.pi/2
 			pred_cx = centerX + d1*np.sin(azFrame)
 			pred_cy = centerY + d1*np.cos(azFrame)
 			obj+=[centerX,centerY,azFrame,pred_cx,pred_cy,'NOT FOUND']
 
 	for objstart in frame1:
-		xpred = objstart[8]
-		ypred = objstart[9]
+		xpred = objstart[7]
+		ypred = objstart[8]
 		for objend in frame2:
-			xreal = objend[5]
-			yreal = objend[6]
+			xreal = objend[4]
+			yreal = objend[5]
 			err = np.max([abs((xreal-xpred)/xreal),abs((yreal-ypred)/yreal)])
 			if err <= tol:
-				objend[4]=objstart[4]
+				#objend[4]=objstart[4]
 				objend[-1] = 'FOUND'
 				_X = [objstart[5],objend[5]]
 				_Y = [objstart[6],objend[6]]
@@ -72,10 +72,10 @@ def processFrame(f1,f2,d1=3.6,tol=0.032):
 				vy = yreal-objstart[6]
 				objend+=[vx,vy]
 				break
-	for obj in frame2:
-		if obj[10]=='NOT FOUND':
-			obj[4] = '-1'
-			obj+=['NF','NF']
+	#for obj in frame2:
+	#	if obj[9]=='NOT FOUND':
+	#		obj[4] = '-1'
+	#		obj+=['NF','NF']
 
 	OUTPUT_PATH = os.path.join(OUTPUT_FRAMES_DIRECTORY,f'obj_{f2}.csv')
 	np.savetxt(OUTPUT_PATH,frame2,delimiter=',',fmt='%s')
@@ -84,7 +84,7 @@ def main():
 	for i in range(frame_count-1):
 		processFrame(i+1,i+2)
 	plt.gca().invert_yaxis()
-	img = plt.imread('data_outputs/video_chiqui/frame_1.png')
+	img = plt.imread('data/frames_cars/frame_1.png')
 	plt.imshow(img)
 	# 
 	plt.show()

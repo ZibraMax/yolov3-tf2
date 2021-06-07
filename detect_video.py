@@ -86,9 +86,11 @@ def main(_argv):
         times.append(t2-t1)
         times = times[-20:]
 
-
+        #Threshold definition
         th = FLAGS.th/100
         img = draw_outputs(img, (boxes, scores, classes, nums), class_names)
+
+        #Threshold filtering
         boxesth = boxes[0][scores.flatten()>=th]
         wh = np.flip(img.shape[0:2])
         boxesth[:,0]*=wh[0]
