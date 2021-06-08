@@ -78,8 +78,6 @@ def processFrame(f1, f2, d1=3.6, tol=0.06):
     #		obj[4] = '-1'
     #		obj+=['NF','NF']
 
-    OUTPUT_PATH = os.path.join(OUTPUT_FRAMES_DIRECTORY, f'obj_{f2}.csv')
-    np.savetxt(OUTPUT_PATH, frame2, delimiter=',', fmt='%s')
     return carros
 
 
@@ -100,6 +98,10 @@ class Carro():
 
     def trayectoria(self):
         return [[self.x[0], self.y[0]], [self.x[-1], self.y[-1]]]
+
+    def imprimirTrayectoria(self, filename):
+        np.savetxt(filename, np.array(
+            [self.x, self.y]).T, delimiter=',', fmt='%s')
 
 
 def seg_intersect(a1, a2, b1, b2):
@@ -152,6 +154,9 @@ def main():
                     carro.agregarPuntoTrayectoria(*cf)
             if not detectado:
                 carros += [Carro(*cf)]
+    for i, carro in enumerate(carros):
+        OUTPUT_PATH = os.path.join(OUTPUT_FRAMES_DIRECTORY, f'carro_{i}.csv')
+        carro.imprimirTrayectoria(OUTPUT_PATH)
     CHECKPOINTS = []
     CHECKPOINTS += [np.array([[300, 450], [600, 300]])]
     CHECKPOINTS += [np.array([[250, 450], [600, 250]])]
