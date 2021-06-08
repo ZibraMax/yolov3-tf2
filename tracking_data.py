@@ -24,7 +24,7 @@ def processFrame(f1, f2, d1=3.6, tol=0.06):
             f1 (int): frame 1 id
             f2 (int): frame 2 id
             d1 (float, optional): Car average velocity [pix/frame]. Defaults to 3.6.
-            tol (float, optional): Maximum prediction tolerancy [frame]. Defaults to 0.032.
+            tol (float, optional): Maximum prediction tolerancy [frame]. Defaults to 0.06.
     """
 
     PATH_F1 = os.path.join(INPUT_FRAMES_DIRECTORY, f'frame_{f1-1}.csv')
