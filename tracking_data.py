@@ -33,6 +33,7 @@ def processFrame(f1, f2, d1=3.6, tol=0.06):
     frame1 = np.loadtxt(PATH_F1, delimiter=',', dtype='str')
     if len(frame1.shape) == 1:
         frame1 = frame1.reshape([1, 5])
+
     frame1 = frame1[:, :].astype(float).tolist()
     frame2 = np.loadtxt(PATH_F2, delimiter=',', dtype='str')
     if len(frame2.shape) == 1:
