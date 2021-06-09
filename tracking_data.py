@@ -85,7 +85,6 @@ def processFrame(f1, f2, d1=3.6, tol=0.06):
 class Carro():
     """docstring for Carro
     """
-
     def __init__(self, X, Y):
         self.x = [X]
         self.y = [Y]
